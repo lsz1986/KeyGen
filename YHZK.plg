@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: YHZK - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Roger\AppData\Local\Temp\RSPD82.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/YHZK.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Project\KeyGen\BCMenu.cpp"
+"D:\Project\KeyGen\BtnST.cpp"
+"D:\Project\KeyGen\CeXDib.cpp"
+"D:\Project\KeyGen\SysInfo\CSysInfo.cpp"
+"D:\Project\KeyGen\GmKey.cpp"
+"D:\Project\KeyGen\ShadeButtonST.cpp"
+"D:\Project\KeyGen\YHZK.cpp"
+"D:\Project\KeyGen\YHZKDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Roger\AppData\Local\Temp\RSPD82.tmp" 
+Creating temporary file "C:\Users\Roger\AppData\Local\Temp\RSPD83.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/YHZK.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Project\KeyGen\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Roger\AppData\Local\Temp\RSPD83.tmp" 
+Creating temporary file "C:\Users\Roger\AppData\Local\Temp\RSPD84.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/YHZK.pdb" /machine:I386 /out:"Release/YHZK.exe" 
+.\Release\BCMenu.obj
+.\Release\BtnST.obj
+.\Release\CeXDib.obj
+.\Release\CSysInfo.obj
+.\Release\GmKey.obj
+.\Release\ShadeButtonST.obj
+.\Release\StdAfx.obj
+.\Release\YHZK.obj
+.\Release\YHZKDlg.obj
+.\Release\YHZK.res
+]
+Creating command line "link.exe @C:\Users\Roger\AppData\Local\Temp\RSPD84.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BCMenu.cpp
+BtnST.cpp
+CeXDib.cpp
+CSysInfo.cpp
+GmKey.cpp
+ShadeButtonST.cpp
+YHZK.cpp
+YHZKDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/YHZK.bsc"  .\Release\StdAfx.sbr .\Release\BCMenu.sbr .\Release\BtnST.sbr .\Release\CeXDib.sbr .\Release\CSysInfo.sbr .\Release\GmKey.sbr .\Release\ShadeButtonST.sbr .\Release\YHZK.sbr .\Release\YHZKDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+YHZK.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,23 @@
+cEncryptNum 2B加密序号 (m_ctimeCur.GetTime()+m_nAuthDay)%16;
+
+cl1 2B MainBoardSN加密后的长度
+cl2 2B 加密后的时间转换成字符串后的长度
+cl3 2B 加密后的终止时间转换后字符串的长度
+
+cl4 2B 网卡物理地址 字符串长度
+cl5 2B CPUID 字符串长度
+cl6 2B 硬盘序列号 字符串长度
+cl7 2B 用户名  字符串长度
+cl8 2B 生成Key的时间 加密
+
+1 MainBoardSN 加密1
+2 起始时间 加密2
+3 结束时间 加密1
+4 mac地址 
+5 生成Key的时间 加密2
+6 CPUID
+7 硬盘序列号
+8 客户名称
+9 授权天数 %03d
+10 校验码
+

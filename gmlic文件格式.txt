@@ -1,0 +1,13 @@
+n1 2B nMainBoardSN%16
+n2 2B m_ctimeCurTime.GetTime() % 16
+n3 2B m_strMac.GetLength()
+n4 2B m_strCPUID.GetLength()
+n5 2B m_strHDSerial.GetLength()
+n6 2B 加密后的 strMainBoardSN.GetLength()
+n7 2B 加密后的 strCurTime.GetLength()
+
+MAC地址 长度 n3
+CPUID 长度 n4
+硬盘序列号 长度n5
+加密后的主板序列号 长度n6
+加密后的注册时间 长度n7

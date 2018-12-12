@@ -1,0 +1,227 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\YHZK.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "res\\organizer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OWNDRAW_DIALOG DIALOGEX 0, 0, 380, 217
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "KeyGen"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "打开lic文件(*.gmlic)",IDC_BTN_OPEN_LIC,10,45,97,16
+    PUSHBUTTON      "保存Key",IDC_BTN_KEY_SAVE,123,20,42,16
+    LTEXT           "设置时间:",IDC_STATIC,11,23,37,8
+    EDITTEXT        IDC_EDIT_DAY,58,22,46,14,ES_AUTOHSCROLL
+    LTEXT           "天",IDC_STATIC,108,25,9,8
+    LTEXT           "[NULL]",IDC_TXT_SN,67,91,88,9
+    LTEXT           "客户名称：",IDC_STATIC,11,71,41,8
+    LTEXT           "产品序列号：",IDC_STATIC,11,91,49,8
+    EDITTEXT        IDC_EDIT_NAME,67,69,89,14,ES_AUTOHSCROLL
+    LTEXT           "起始时间：",IDC_STATIC,11,104,41,8
+    LTEXT           "到期时间：",IDC_STATIC,11,117,41,8
+    LTEXT           "[NULL]",IDC_TXT_DATE_START,67,104,88,9
+    LTEXT           "[NULL]",IDC_TXT_DATE_END,67,117,88,9
+    PUSHBUTTON      "修改key",IDC_BTN_KEY_EDIT,123,45,42,16
+    EDITTEXT        IDCE_NUM1,257,31,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDCE_NUM2,257,49,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDCE_RAND,257,68,70,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "计算认证码",IDCB_CALCPW,279,88,50,14
+    LTEXT           "数字1",IDC_STATIC,223,35,21,8
+    LTEXT           "数字2",IDC_STATIC,223,53,21,8
+    LTEXT           "认证码",IDC_STATIC,221,70,25,8
+    GROUPBOX        "一代主板算Key工具:",IDC_STATIC,7,7,195,122
+    GROUPBOX        "一代二代主板解除锁定工具:",IDC_STATIC,204,7,169,122
+    GROUPBOX        "二代主板计算注册码工具:",IDC_STATIC,7,133,366,75
+    LTEXT           "序列号：",IDC_STATIC,13,152,33,8
+    EDITTEXT        IDCE_V2SN,56,149,172,14,ES_AUTOHSCROLL
+    LTEXT           "注册码：",IDC_STATIC,13,190,33,8
+    EDITTEXT        IDCE_V2CODE,56,189,173,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "根据序列号和终止日期计算注册码",IDCB_GENSTM32CODE,237,
+                    148,127,17
+    PUSHBUTTON      "由注册码倒推序列号和终止日期",IDCB_GET_SN,237,188,127,
+                    17
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,83,167,144,15
+    LTEXT           "授权终止日期：",IDC_STATIC,13,171,57,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "YHZK Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "YHZK\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "YHZK.EXE\0"
+            VALUE "ProductName", "YHZK 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OWNDRAW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CLOSEBTN_HOT        BITMAP  DISCARDABLE     "res\\closebtn_hot.bmp"
+IDB_CLOSEBTN_NORMAL     BITMAP  DISCARDABLE     "res\\closebtn_normal.bmp"
+IDB_CLOSEBTN_DOWN       BITMAP  DISCARDABLE     "res\\closebtn_down.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 YHZK(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\YHZK.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
